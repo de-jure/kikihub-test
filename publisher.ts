@@ -20,7 +20,7 @@ let sentCounter = 0;
     }
     sentCounter += config.messagesPerSecond;
     if (sentCounter % 100000 === 0) {
-      console.log(`PID ${process.pid}:`, sentCounter, ' sent');
+      console.log(`PID ${process.pid}:`, sentCounter, 'messages sent');
     }
   }, 1000);
 })();

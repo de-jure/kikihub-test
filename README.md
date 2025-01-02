@@ -4,8 +4,6 @@
 - `yarn deps` – Starts RabbitMQ docker container
 - `yarn sub` – Starts the subscriber service (or whatever it listens to).
 
-And as many `yarn pub` commands as you need.
-
 To run 5 parallel `yarn pub` processes, use the following command in your terminal:
 
 ```bash
